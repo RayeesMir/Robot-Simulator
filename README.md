@@ -1,6 +1,6 @@
 # Robot Simulator 
 
-Project is the simulation of a robot moving on a square tabletop, of dimensions 5 units x 5 units. The robot is free to roam around the surface of the table without any obstructions. Any instruction that would result in the robot falling from the table must be ignored, Simulator is written in Node.js. 
+Simulation of a robot moving on a square tabletop of dimensions 5 units x 5 units. The robot is free to roam around the surface of the table without any obstructions. Any instruction that would result in the robot falling from the table must be ignored, Simulator is written in Node.js. 
 
 ## Instructions Descriptions 
 
@@ -75,8 +75,4 @@ Simulator accepts instruction via  command prompt or via .txt file.
 ```npm test```
 
 Test data is provided inside files.
-
-
-
-
 
