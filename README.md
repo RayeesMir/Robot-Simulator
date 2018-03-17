@@ -52,6 +52,8 @@ Input:
 
 Output: `3,3,NORTH`
 
+  Node LTS version
+
 ## Installation & Usage
 
 1. Clone repoistory.
@@ -67,12 +69,12 @@ Simulator accepts instruction via  command prompt or via .txt file.
 
 ## Technology
 
-* Node latest version
+* Node LTS version(8.10.0)
 * Mocha and Chai for Testing
 
 ## Tests
     
 ```npm test```
 
-Test data is provided inside files.
+Test data is provided inside files under data directory.you can directly pass files as parameter to simulator. `node index.js filename`
 
