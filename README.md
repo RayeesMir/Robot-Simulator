@@ -6,15 +6,15 @@ Simulation of a robot moving on a square tabletop of dimensions 5 units x 5 unit
 
 Simulattor can accepts instruction via command prompt with one command per line or we can pass instruction file. Valid instruction details are as.
 
--  PLACE X, Y, DIRECTION:  Place the robot on the table on position (x,y) with facing direction f.The origin (0,0) is considered to be the SOUTH WEST most corner.First valid instruction to the robot is PLACE, All instrucion to robot will be ignored untill a valid PLACE instruction is issued. After issuing valid place instruction any sequence of instruction can be issued including another PLACE instruction.
+-  **PLACE X, Y, DIRECTION:**  Place the robot on the table on position (x,y) with facing direction f.The origin (0,0) is considered to be the SOUTH WEST most corner.First valid instruction to the robot is PLACE, All instrucion to robot will be ignored untill a valid PLACE instruction is issued. After issuing valid place instruction any sequence of instruction can be issued including another PLACE instruction.
 
-- MOVE: Move the robot one unit in the facing direction.
+- **MOVE:** Move the robot one unit in the facing direction.
 
-- LEFT: rotates the robot by 90 degrees in the specified direction without changing the position of the robot.
+- **LEFT:** rotates the robot by 90 degrees in the specified direction without changing the position of the robot.
 
-- RIGHT: Turn the robot right, changes direction of robot by 90 degrees from it current facing direction.
+- **RIGHT:** Turn the robot right, changes direction of robot by 90 degrees from it current facing direction.
 
-- REPORT: Report announces the current position and direction of the robot.
+- **REPORT:** Report announces the current position and direction of the robot.
 
 Example 1
 
